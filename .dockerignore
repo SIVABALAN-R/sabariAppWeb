@@ -1,0 +1,4 @@
+
+Create file .dockerignore in your docker build context directory (so in this case, most likely a directory that is a parent to node_modules) with one line in it:
+
+**/node_modules
